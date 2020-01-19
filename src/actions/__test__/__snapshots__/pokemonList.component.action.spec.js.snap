@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonList Actions closeModal() should return action 1`] = `
+Object {
+  "type": "CLOSE_MODAL",
+}
+`;
+
+exports[`PokemonList Actions initialize() should return action 1`] = `
+Object {
+  "type": "INITIALIZE",
+}
+`;
+
+exports[`PokemonList Actions setLoading() should return action 1`] = `
+Object {
+  "payload": false,
+  "type": "LOADING",
+}
+`;
+
+exports[`PokemonList Actions setPokemonList() should return action 1`] = `
+Object {
+  "payload": Array [],
+  "type": "SET_POKEMON_LIST",
+}
+`;
+
+exports[`PokemonList Actions setSelectedPokemonInfo() should return action 1`] = `
+Object {
+  "payload": Object {
+    "abilities": Array [],
+    "height": 4,
+    "name": "eevee",
+    "types": Array [],
+    "url": "",
+  },
+  "type": "SET_SELECTED_POKEMON_INFO",
+}
+`;
+
+exports[`PokemonList Actions showPokemonInfo() should return action 1`] = `
+Object {
+  "payload": Object {
+    "abilities": Array [],
+    "height": 4,
+    "name": "eevee",
+    "types": Array [],
+    "url": "",
+  },
+  "type": "SHOW_POKEMON_INFO",
+}
+`;

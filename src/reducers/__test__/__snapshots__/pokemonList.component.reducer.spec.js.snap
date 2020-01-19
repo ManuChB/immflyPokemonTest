@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonList reducer handle closeModal() 1`] = `
+Object {
+  "loading": false,
+  "pokemonList": Array [],
+  "selectedPokemon": null,
+  "showInfoModal": false,
+}
+`;
+
+exports[`PokemonList reducer handle setLoading() 1`] = `
+Object {
+  "loading": false,
+  "pokemonList": Array [],
+  "selectedPokemon": null,
+  "showInfoModal": false,
+}
+`;
+
+exports[`PokemonList reducer handle setPokemonList() 1`] = `
+Object {
+  "loading": false,
+  "pokemonList": Array [
+    Object {
+      "abilities": Array [],
+      "height": 4,
+      "name": "eevee",
+      "types": Array [],
+      "url": "",
+    },
+  ],
+  "selectedPokemon": null,
+  "showInfoModal": false,
+}
+`;
+
+exports[`PokemonList reducer handle setSelectedPokemonInfo() 1`] = `
+Object {
+  "loading": false,
+  "pokemonList": Array [],
+  "selectedPokemon": Object {
+    "abilities": Array [],
+    "height": 4,
+    "name": "eevee",
+    "types": Array [],
+    "url": "",
+  },
+  "showInfoModal": true,
+}
+`;
